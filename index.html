@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="Jack Ryan" content="Personal website for Jack Ryan" />
+    <link rel="apple-touch-icon" href="logo192.png" />
+    <title>Jack Ryan</title>
+
+    <!-- Feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Normalize -->
+    <link href="css/normalize.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-content-container">
+        <div class="profile-image-container">
+          <img class="profile-image" src="images/Jack.jpg" alt="Jack" />
+        </div>
+        <h1>Jack Ryan</h1>
+        <p>
+          Software engineer in the Bay Area. Building something awesome at
+          <a class="leetcoach-link" target="_blank" href="https://leet.coach"
+            >LeetCoach</a
+          >!
+        </p>
+        <div class="social-icons-container">
+          <a
+            class="social-icon"
+            href="https://www.linkedin.com/in/jackryan830"
+            target="_blank"
+          >
+            <i data-feather="linkedin"></i>
+          </a>
+          <a
+            class="social-icon"
+            href="https://github.com/johnmryan"
+            target="_blank"
+          >
+            <i data-feather="github"></i>
+          </a>
+          <a
+            class="social-icon"
+            href="https://twitter.com/jack_m_ryan"
+            target="_blank"
+          >
+            <i data-feather="twitter"></i>
+          </a>
+          <a class="social-icon" href="mailto:jackmryan94@gmail.com">
+            <i data-feather="mail"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="experiences-section">
+      <h2>Experience</h2>
+      <div class="cards-section">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="images/leetcoach-logo.png" alt="LeetCoach" />
+            </div>
+            <div class="flip-card-back">
+              <div class="flip-card-back-content">
+                <h4>LeetCoach</h4>
+                <h4>Founder</h4>
+                <ul>
+                  <li>
+                    Designing and developing a web application to connect
+                    eSports players with coaches. Check it out at
+                    <a href="https://leet.coach">LeetCoach!</a>
+                  </li>
+                </ul>
+                Skills: Figma, Webflow, React, Node, AWS
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="images/smartcar.png" alt="Smartcar" />
+            </div>
+            <div class="flip-card-back">
+              <div class="flip-card-back-content">
+                <h4>Smartcar</h4>
+                <h4>Software Engineer - Platform</h4>
+                <ul>
+                  <li>
+                    Built integration to support Ford vehicles on the Smartcar
+                    platform.
+                  </li>
+                  <li>
+                    Developed backend and client data layer for Chrome extension
+                    <a
+                      href="https://chrome.google.com/webstore/detail/carmadillo/dibomlkgdhnjfnicpoecmofpnemhejcc?hl=en-US"
+                      >Carmadillo</a
+                    >.
+                  </li>
+                </ul>
+                Skills: React, Node, AWS, Travis
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="images/qualtrics.jpeg" alt="Qualtrics" />
+            </div>
+            <div class="flip-card-back">
+              <div class="flip-card-back-content">
+                <h4>Qualtrics</h4>
+                <h4>Software Engineer - Dashboards</h4>
+                <ul>
+                  <li>
+                    Improved performance of computationally expensive endpoints
+                    by > 10x.
+                  </li>
+                  <li>
+                    Designed and developed feature to support grouped
+                    visualizations on dashboards.
+                  </li>
+                </ul>
+                Skills: AngularJS, Node, Go, Docker, Jenkins
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="images/amazon-robotics.jpg" alt="Amazon Robotics" />
+            </div>
+            <div class="flip-card-back">
+              <div class="flip-card-back-content">
+                <h4>Amazon Robotics</h4>
+                <h4>SDE Intern - Mobile</h4>
+                <ul>
+                  <li>
+                    Built feature into internal Android application to track
+                    human movement in fulfillment centers.
+                  </li>
+                </ul>
+                Skills: Android, Java (client + backend), AWS
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <!-- Sticky footer, built in vanilla JS -->
+    </footer>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</html>
