@@ -16,6 +16,7 @@ a {
   background-color: #282a36;
   color: #ebebeb;
   clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
 }
 
 /* TODO: fix clip path in .hero */
@@ -91,12 +92,15 @@ a {
   height: 100%;
   text-align: center;
   transition: transform 0.8s;
+  -webkit-transition: transform 0.8s;
   transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
 }
 
 /* Position the front and back side */
