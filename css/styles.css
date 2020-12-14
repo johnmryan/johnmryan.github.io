@@ -42,7 +42,7 @@ a {
   padding: 12px;
 }
 
-.leetcoach-link {
+.amzn-connect-link {
   text-decoration: none;
   font-weight: bold;
 }
@@ -132,6 +132,13 @@ a {
 .flip-card-front > img {
   height: 200px;
   width: auto;
+}
+
+.open-card-arrow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 8px;
 }
 
 /* Style the back side */
